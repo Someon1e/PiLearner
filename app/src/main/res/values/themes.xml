@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PiLearner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="colorPrimaryVariant">@color/main_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/secondary</item>
+
+        <item name="android:statusBarColor">@color/background</item>
+
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:background">@color/background</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
