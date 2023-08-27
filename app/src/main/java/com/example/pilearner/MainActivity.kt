@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                                 index = 0
                             }
                         } else {
-                            val newText = answered.text.takeLast(10).toString() + number.toString()
+                            val newText = answered.text.takeLast(10).toString() + number
                             val spannableString = SpannableString(newText)
                             val textLength = newText.length.toFloat()
                             for (i in newText.indices) {
